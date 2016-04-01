@@ -1,0 +1,46 @@
+html {
+  background-color: black;
+  color: green;
+  font-size: 24px;
+}
+
+#input {
+  background-color: black;
+  border: none;
+  color: green;
+  font-size: 24px;
+  display: inline;
+  
+}
+
+#prompt {
+  display:inline
+}
+
+#inputContainer {
+  width: 400px;
+  padding: 3px;
+  background-color: transparent;
+  
+}
+
+
+
+#input:focus{
+  box-shadow: none;
+  background-color: black;
+  border:none;
+  outline: none;
+  color: green
+  font-size: 24px;
+  
+} 
+
+#console {
+  margin-top: 25px;
+  margin-left: 35px;
+  height: 400px;
+  width: 400px;
+  border: solid green 1px;
+}
+
